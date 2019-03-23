@@ -1,0 +1,89 @@
+body{
+	font-family: 'Noto Sans', sans-serif;
+	background-color: blue;
+}
+
+#calculator{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 100px;
+    width: 340px;
+    height:500px;
+    background:#1f1f1f;
+}
+
+button{
+	border: black 1px solid;
+	background-color: #1F1F1F;
+	color: #FFFFFF;
+	font-size: 32px;
+    width: 85px;
+    height: 70px;
+    vertical-align: middle;
+}
+
+button:focus {
+	outline: 0;
+}
+
+button:hover {
+	background-color: #656060;
+}
+
+.btnOP{
+	color: #9D9D9D !important;
+	/*font-weight: bold;*/
+	font-size: 30px !important;
+}
+
+.btnWORD{
+	color: #9D9D9D !important;
+	font-weight: bold;
+	font-size: 18px !important;
+}
+
+.display_history{
+    width: 340px;
+    height: auto;
+}
+
+#display_main{
+	text-align: right;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 0px 15px 0px 15px;
+	font-size: 50px;
+    width: 340px;
+    height: auto;
+    overflow: visible;
+}
+
+.display_expression{
+	text-align: right;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 0px 15px 0px 15px;
+	font-size: 25px;
+    width: 340px;
+    height: auto;
+    overflow: visible;
+}
+
+#display_titlebar{
+	text-align: left;
+	background-color: #CBC7C6;
+	color: #000000;
+	/*padding: 10px 10px 10px 10px;*/
+	padding-left: 10px;
+	font-size: 12px;
+    width: 200px;
+    height: 30px;
+  	line-height: 30px;
+}
+.foot {
+    text-align:center;
+    color: black;
+}
+a {
+    color: black;
+}
